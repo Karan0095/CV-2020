@@ -1,0 +1,137 @@
+body
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #070642;
+    background-color : whitesmoke;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+a:link {
+    outline: none;
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+a:visited {
+    outline: none;
+    text-decoration: none;
+    color: black;
+  }
+
+#abstract p {
+    text-align: justify;
+    font-style: italic;
+    border-top: 0.3em solid rgb(21, 64, 85);
+    padding-top: 1%;
+}
+
+#introduction {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(88, 152, 184);
+}
+
+#abstract {
+    color: whitesmoke;
+    width: 70%
+}
+
+#identity_photo {
+    width: 150px;
+    height: 150px;
+    border-radius:100%;
+    border: 0.3em solid rgb(21, 64, 85);
+    margin-top: 3%;
+
+}
+
+#main_page {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    border-top: 1em solid rgb(21, 64, 85);
+}
+
+#skills {
+    flex: 1;
+    background-color: rgb(88, 152, 184);
+    color: whitesmoke;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#mainInformation p {
+    list-style-type: none;
+    text-align: center;
+    text-align: justify;
+
+}
+
+#mainInformation {
+    flex: 3;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.text_main_page{
+    color: whitesmoke;
+    float: left;
+}
+
+capiton {
+    font-weight: bold;
+    color: #070642;
+}
+
+h3 {
+    font-size: medium;
+}
+
+table {
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.main_info {
+    width: 20%;
+    text-align: center;
+}
+
+.about_info {
+    width: 80%;
+    text-align: justify;
+}
+
+.fa-briefcase {
+    color: #070642;
+}
+
+.fa-graduation-cap {
+    color: #070642;
+}
+
+.fa-guitar-cap {
+    color: black;
+}
+
+.fa-cog {
+    color: black;    
+}
+
+.fa-comments {
+    color: black;    
+}
+
+.fa-address-book {
+    color: black;    
+}
